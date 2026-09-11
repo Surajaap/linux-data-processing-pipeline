@@ -22,21 +22,31 @@ Linux / WSL, Bash, Python, Pandas, Jupyter Notebook, Git, GitHub
 
 ## Project Structure
 
+## Project Structure
+
+```text
 linux-data-processing-pipeline/
+│
 ├── data/
 │   ├── raw/
 │   │   └── titanic.csv
+│   │
 │   └── processed/
 │       └── titanic_clean.csv
+│
 ├── scripts/
 │   ├── process_data.py
 │   └── run_pipeline.sh
-├── logs/
-│   └── pipeline.log
-├── output/
-│   └── processed_titanic.csv
+│
 ├── notebook/
 │   └── titanic_data_cleaning.ipynb
+│
+├── output/
+│   └── processed_titanic.csv
+│
+├── logs/
+│   └── pipeline.log
+│
 ├── .gitignore
 ├── README.md
 └── LICENSE
