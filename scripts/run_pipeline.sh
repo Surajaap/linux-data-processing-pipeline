@@ -2,7 +2,7 @@
 
 DATA_FILE="data/processed/titanic_clean.csv"
 LOG_FILE="logs/pipeline.log"
-
+> "$LOG_FILE"
 echo "============================" >> "$LOG_FILE"
 echo "Pipeline started" >> "$LOG_FILE"
 
@@ -19,7 +19,7 @@ fi
 
 echo "Running Python processing..."
 
-python scripts/process_data.py >> "$LOG_FILE" 2>&1
+python3 scripts/process_data.py >> "$LOG_FILE" 2>&1
 
 if [ $? -eq 0 ]; then
     echo "Python processing successful"
