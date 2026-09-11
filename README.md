@@ -22,8 +22,6 @@ Linux / WSL, Bash, Python, Pandas, Jupyter Notebook, Git, GitHub
 
 ## Project Structure
 
-## Project Structure
-
 ```text
 linux-data-processing-pipeline/
 │
